@@ -5,7 +5,7 @@ require 'httpfiesta/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'httpfiesta'
-  spec.version       = Httpfiesta::VERSION
+  spec.version       = HTTPFiesta::VERSION
   spec.authors       = ['Christopher Thornton']
   spec.email         = ['rmdirbin@gmail.com']
   spec.summary       = %q{TODO: Write a short summary. Required.}
