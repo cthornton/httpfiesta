@@ -5,7 +5,7 @@ require 'httpfiesta/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "httpfiesta"
-  spec.version       = Httpfiesta::VERSION
+  spec.version       = HTTPFiesta::VERSION
   spec.authors       = ["Christopher Thornton"]
   spec.email         = ["rmdirbin@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
@@ -18,8 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'httparty'
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'httparty'
 end
