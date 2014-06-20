@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['rmdirbin@gmail.com', 'ben@benradler.com']
   spec.summary       = %q{Makes verifying your HTTParty responses easier!}
   spec.description   = %q{Adds some extra utilities to make verifying your HTTParty responses more convienent and fun}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/cgthornt/httpfiesta'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
