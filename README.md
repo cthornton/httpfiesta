@@ -1,5 +1,5 @@
-HTTPFiesta
-==========
+# HTTPFiesta [![Build Status](https://travis-ci.org/cgthornt/httpfiesta.svg?branch=master)](https://travis-ci.org/cgthornt/httpfiesta)
+
 Verify and assert your HTTParty responses with ease!
 
 ## Usage
