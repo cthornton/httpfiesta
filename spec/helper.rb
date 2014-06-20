@@ -1,6 +1,7 @@
 require 'rspec'
 require 'webmock/rspec'
 require 'pry'
+require 'httparty'
 
 require 'httpfiesta'
 

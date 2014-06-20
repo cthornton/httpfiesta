@@ -6,10 +6,10 @@ require 'httpfiesta/version'
 Gem::Specification.new do |spec|
   spec.name          = 'httpfiesta'
   spec.version       = HTTPFiesta::VERSION
-  spec.authors       = ['Christopher Thornton']
-  spec.email         = ['rmdirbin@gmail.com']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ['Christopher Thornton', 'Ben Radler']
+  spec.email         = ['rmdirbin@gmail.com', 'ben@benradler.com']
+  spec.summary       = %q{Makes verifying your HTTParty responses easier!}
+  spec.description   = %q{Adds some extra utilities to make verifying your HTTParty responses more convienent and fun}
   spec.homepage      = ''
   spec.license       = 'MIT'
 
@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.0.0'
   spec.add_development_dependency 'webmock'
   spec.add_development_dependency 'pry'
+  spec.add_development_dependency 'json'
+  spec.add_development_dependency 'httparty'
 end
