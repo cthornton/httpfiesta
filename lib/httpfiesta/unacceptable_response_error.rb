@@ -7,8 +7,9 @@ module HTTPFiesta
       @response = response
     end
 
-    def message
-      "HTTP #{response.request.method.upcase} #{response.request.path} : #{super}"
+    def to_s
+      request_method = response.request.http_method.to_s.split('::').last.upcase rescue ''
+      "HTTP #{request_method} #{response.request.path} : #{super}"
     end
   end
 end
